@@ -54,7 +54,7 @@ const addBooksHandler = (request, h) => {
   
     books.push(newBooks);
 
-    const isSuccess = books.filter((note) => note.id === id).length > 0;
+    const isSuccess = books.filter((book) => book.id === id).length > 0;
 
   if (isSuccess) {
     // Bila buku berhasil dimasukkan
