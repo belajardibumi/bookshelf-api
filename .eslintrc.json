@@ -1,0 +1,20 @@
+{
+    "env": {
+        "node": true,
+        "commonjs": true,
+        "es2021": true
+    },
+    "extends": "airbnb-base",
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "no-console": "off",
+        "eol-last": "off",
+        "no-trailing-spaces": "off",
+        "linebreak-style": "off",
+        "no-multiple-empty-lines": "off",
+        "indent": "off",
+        "no-unused-vars": "off"
+    }
+}
